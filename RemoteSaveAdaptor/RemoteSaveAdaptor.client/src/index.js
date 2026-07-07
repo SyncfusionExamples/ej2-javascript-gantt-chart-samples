@@ -5,7 +5,7 @@ import { Gantt, Edit, Selection, Toolbar } from '@syncfusion/ej2-gantt';
 import { DataManager, RemoteSaveAdaptor } from '@syncfusion/ej2-data';
 
 Gantt.Inject(Edit, Selection, Toolbar);
-const serviceUrl = 'https://localhost:7260/api/gantt'; // Here xxxx represents the port number.
+const serviceUrl = 'https://localhost:7260/api/gantt'; // Here 7260 represents the port number.
 let data;
 
 function load() {
